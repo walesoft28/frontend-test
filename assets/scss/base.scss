@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit
+}
+
+:root {
+    --color-primary: #2F5931;
+    --color-primary-3: rgba(52, 240, 62, 0.61);
+    // --color-primary-light: rgba(47, 89, 49, 0.575);
+    --color-secondary: #133a15;
+
+    --color-light-primary: #ffffff;
+    --color-light-secondary: #EEF0EB;
+    --color-light-secondary-2: ##9EA3B0;;
+
+    --color-dark-primary: #000000;
+
+    // --color-success: #9CFC97;
+    --color-success: rgba(107, 163, 104, 0.705);
+    --color-warning: rgba(249, 220, 92, 0.705);
+    --color-text-blue: #1d6add;
+
+    --shadow-primary: 0 20px 60px rgba(0, 0, 0, .3);
+    --shadow-primary-2: 0 5px 10px rgba(0, 0, 0, .1);
+    --gradient-primary: linear-gradient(to right bottom, var(--color-secondary), var(--color-primary));
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    // font-size: 80%;
+    // background-image: linear-gradient(to right bottom, var(--color-secondary), var(--color-primary));
+    min-height: 100vh;
+}
+
+

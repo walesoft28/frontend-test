@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Imperium | Frontend Recruitment Test</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div class="sidebar__brand">
+                    <!-- <img src="assets/img/logo.png" alt="" class="logo"> -->
+                    <div class="brand">
+                        <div class="brand__text">Imperium</div>
+                    </div>
+                </div>
+                <nav class="sidebar__menu">
+                    <ul class="menu menu--main">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">
+                                <i  class="fa fa-dashboard menu__icon"></i>
+                                <span class="menu__text">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link menu__link--active">
+                                <i  class="fa fa-dropbox menu__icon menu__icon--active"></i>
+                                <span class="menu__text menu__text--active">Orders</span>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">
+                                <i  class="fa fa-shopping-bag menu__icon"></i>
+                                <span class="menu__text">Products</span>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">
+                                    <i  class="fa fa-money menu__icon"></i>
+                                <span class="menu__text">Payment</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="menu menu--secondary">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">
+                                    <i  class="fa fa-cogs menu__icon"></i>
+                                <span class="menu__text">Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="sidebar__footer"></div>
+            </div>
+            <div class="content">
+                <header class="header">
+                    <form class="search">
+                        <button type="button" class="search__btn">
+                            <img src="assets/img/search.svg" class="search__btn-icon">
+                        </button>
+                        <input type="text" class="search__input" placeholder="Search">
+                    </form>
+                    <div class="profile">
+                        <img src="assets/img/user.svg" alt="" class="profile__image">
+                        <span class="profile__text">John Doe</span>
+                    </div>
+                </header>
+                <main class="page-view">
+                    <div class="breadcrumb">
+                        <i class="fa fa-arrow-left breadcrumb__icon"></i>
+                        <span class="breadcrumb__text">Orders</span>
+                    </div>
+                    <div class="overview">
+                        <div class="overview__text">
+                            <span class="overview__text--bold">#0011</span> <span class="overview__text--light">  September 2019 at 3:04pm</span> <span class="label label--success">Paid</span> <span class="label label--warning">Scheduled</span>
+                        </div>
+                    </div>
+                    <ul class="menu menu--inline">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">
+                                <i class="fa fa-print menu__icon menu__icon--success"></i>
+                                <span class="menu__text menu__text--black">Print Order</span>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link menu__link--active">
+                                <span class="menu__text menu__text--black">More Actions</span>
+                                <i class="fa fa-chevron-down menu__icon menu__icon--right menu__icon--dark"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="row">
+                        <div class="row__col row__col--lg">
+                            <div class="card">
+                                <span class="card__title"> Installation Date and Time</span>
+                                <div class="time">
+                                    <div class="time__item">
+                                        <span class="time__title">Date:</span>
+                                        <span class="time__detail">21st October 2018</span>
+                                    </div>
+                                    <div class="time__item">
+                                        <span class="time__title">Time:</span>
+                                        <span class="time__detail">12:30 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <span class="grid__text">Item</span>
+                                    </div>
+                                    <div class="grid__item">
+                                        <span class="grid__text">Weight</span>
+                                    </div>
+                                    <div class="grid__item">
+                                        <span class="grid__text">Quantity</span>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <span class="grid__text">
+                                            <img src="assets/img/solar.jpg" alt="" class="grid__image">
+                                            <span class="grid__productname">Ayyle Solar Charger <span class="grid__sku">SKU</span></span>
+                                        </span>
+                                    </div>
+                                    <div class="grid__item">
+                                        <span class="grid__text grid__text--light">5.0kg</span>
+                                    </div>
+                                    <div class="grid__item">
+                                        <span class="grid__text grid__text-center">1</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" class="checkbox__input">
+                                <label class="checkbox__label">Upload as Audit report</label>
+                            </div>
+                            
+                            <button class="btn btn--success btn--right">Mark as Installed</button>
+                        </div>
+                        <div class="row__col">
+                            <div class="card">
+                                <span class="card__title"> Address</span>
+                                <div class="card__body">
+                                    <span class="card__body-text card__body-text--free">Eleanor Ezimah</span>
+                                    <span class="card__body-text card__body-text--free text-blue">eleanor@gmail.com</span>
+                                    <span class="card__body-text card__body-text--free">+2347031288880</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <span class="card__title"> Address</span>
+                                <div class="card__body">
+                                    <span class="card__body-text">Eleanor Ezimah</span>
+                                    <span class="card__body-text">Sterling Towers, 20 Marina Lagos</span>
+                                    <span class="card__body-text">1000242 Lagos</span>
+                                    <span class="card__body-text">Nigeria</span>
+                                    <span class="card__body-text">07031288880</span>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <span class="card__title"> Notes</span>
+                                <span class="card__subtext"> No notes from Customer</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
